@@ -79,7 +79,7 @@ header {
 .right_side:hover {
 	background-color: white;
 }
-.right_side:hover>.login-img {
+.right_side:hover>.login_img {
 	filter: invert(90%);
 }
 .left_side a, .right_side a {
