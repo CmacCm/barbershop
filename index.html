@@ -11,18 +11,17 @@
 </head>
   <body>
 	<header>
-				<div class="burger_menu">
+				<div class="burger-menu">
 					<input type="checkbox" id="check-menu">
         			<label for="check-menu"></label>
-        			<div class="wrap_for_lines">
+        			<div class="wrap-for-lines">
         				<div class="burger-line first"></div>
         				<div class="burger-line second"></div>
         				<div class="burger-line third"></div>
-        				<div class="burger-line fourth"></div>
         			</div>
 				
-				<div class="top_menu">
-					<ul class="left_side">
+				<nav class="top-menu">
+					<ul class="left-side">
 							<li><a href="https://cmaccm.github.io/">Главная</a></li>
 							<li><a href="#">Информация</a></li>
 							<li><a href="news.html">Новости</a></li>
@@ -30,128 +29,132 @@
 							<li><a href="#">Контакты</a></li>
 							<li><a href="#">HTML Academy</a></li>
 					</ul>
-					<div class="right_side">
-						<div class="login_img"></div>
+					<div class="right-side">
+						<div class="login-img"></div>
 						<a href="#">Вход</a>
 					</div>
+				</nav>
 				</div>
-				</div>
-				<div class="big_logo"></div>
+				<a href="index.html" class="big-logo"></a>
 
 	</header>
-			<div class="input_content">
-				<div class="input_content_top">
-					<div class="booking">
+			<form class="input-content">
+				<div class="input-content-top">
+					<h1 class="booking">
 				Запись на стрижку
-					</div>	
+					</h1>	
 					<div class="button">
-				На главную
+						<a href="#">На главную</a>
 					</div>
 				</div>
-		<div class="inputs_name">
+		<div class="inputs-name">
 			<input type="text" placeholder="Имя">
 			<input type="text" placeholder="Фамилия" >
 			<input type="text" placeholder="Отчество" >
 		</div>
-		<div class="inputs_phone">
-			<input type="text" placeholder="Контактный телефон" >
+		<div class="inputs-phone">
+			<input type="tel" placeholder="Контактный телефон" >
 			<input type="email" placeholder="Контактный e-mail" >
 		</div>
-		<div class="inputs_textarea" >
+		<div class="inputs-textarea" >
 			<textarea cols="10" rows="5" placeholder="Доп. информация для мастера"></textarea>
 		</div>
-			<div class="choose_the_model">Выберите модель бороды:</div>
-			<div class="beards">
-				<div class="beard1">
-					<input type="radio" name="radio_button" class="radio" id="radio1" />
+			<h3 class="choose-the-model">Выберите модель бороды:</h3>
+			<ul class="beards">
+				<li class="beard1">
+					<input type="radio" name="radio-button" class="radio" id="radio1" />
 					<label for="radio1">aдмирал</label>
 					<img src="img/beard1.png" alt="">
-				</div>
-				<div class="beard2">
-					<input type="radio" name="radio_button" class="radio" id="radio2" />
+				</li>
+				<li class="beard2">
+					<input type="radio" name="radio-button" class="radio" id="radio2" />
 					<label for="radio2">лесоруб</label>
 					<img src="img/beard2.png" alt="">
-				</div>
-				<div class="beard3">
-					<input type="radio" name="radio_button" class="radio" id="radio3" />
+				</li>
+				<li class="beard3">
+					<input type="radio" name="radio-button" class="radio" id="radio3" />
 					<label for="radio3">полярник</label>
 					<img src="img/beard3.png" alt="">
-				</div>
-				<div class="beard4">
-					<input type="radio" name="radio_button" class="radio" id="radio4" />
+				</li>
+				<li class="beard4">
+					<input type="radio" name="radio-button" class="radio" id="radio4" />
 					<label for="radio4">боярин</label>
-					<img src="img/beard4.png" alt=""></div>
-				<div class="beard5">
-					<input type="radio" name="radio_button" class="radio" id="radio5" />
+					<img src="img/beard4.png" alt="">
+				</li>
+				<li class="beard5">
+					<input type="radio" name="radio-button" class="radio" id="radio5" />
 					<label for="radio5">мудрец</label>
-					<img src="img/beard5.png" alt=""></div>
-			</div>
-			<div class="choose_the_model">Дополнительные услуги:</div>
+					<img src="img/beard5.png" alt="">
+				</li>
+			</ul>
+			<div class="choose-the-model">Дополнительные услуги:</div>
 
 
-			<div class="checkboxes">
+			<ul class="checkboxes">
 				
-				<div class="checkbox">
- 					<input type="checkbox" id="checkbox_input1"/>
- 					<label for="checkbox_input1" class="checkbox_label">Подкрасить бороду</label>
-				</div>
-				<div class="checkbox">
- 					<input type="checkbox" id="checkbox_input2"/>
- 					<label for="checkbox_input2" class="checkbox_label">Убрать седину</label>
-				</div>
-				<div class="checkbox">
- 					<input type="checkbox" id="checkbox_input3"/>
- 					<label for="checkbox_input3" class="checkbox_label">Подровнять виски</label>
-				</div>
-				<div class="checkbox">
- 					<input type="checkbox" id="checkbox_input4"/>
- 					<label for="checkbox_input4" class="checkbox_label">Причесать бороду</label>
-				</div>
-				<div class="checkbox">
- 					<input type="checkbox" id="checkbox_input5"/>
- 					<label for="checkbox_input5" class="checkbox_label">Накрутить усы</label>
-				</div>
-				<div class="checkbox">
- 					<input type="checkbox" id="checkbox_input6"/>
- 					<label for="checkbox_input6" class="checkbox_label">Отполировать лысину</label>
-				</div>
+				<li class="checkbox">
+ 					<input type="checkbox" id="checkbox-input1"/>
+ 					<label for="checkbox-input1" class="checkbox-label">Подкрасить бороду</label>
+				</li>
+				<li class="checkbox">
+ 					<input type="checkbox" id="checkbox-input2"/>
+ 					<label for="checkbox-input2" class="checkbox-label">Убрать седину</label>
+				</li>
+				<li class="checkbox">
+ 					<input type="checkbox" id="checkbox-input3"/>
+ 					<label for="checkbox-input3" class="checkbox-label">Подровнять виски</label>
+				</li>
+				<li class="checkbox">
+ 					<input type="checkbox" id="checkbox-input4"/>
+ 					<label for="checkbox-input4" class="checkbox-label">Причесать бороду</label>
+				</li>
+				<li class="checkbox">
+ 					<input type="checkbox" id="checkbox-input5"/>
+ 					<label for="checkbox-input5" class="checkbox-label">Накрутить усы</label>
+				</li>
+				<li class="checkbox">
+ 					<input type="checkbox" id="checkbox-input6"/>
+ 					<label for="checkbox-input6" class="checkbox-label">Отполировать лысину</label>
+				</li>
+			</ul>
+
+			<div class="big-button">
+				<button type="submit" class="submit">Отправить заявку</button>
 			</div>
+</form>
 
-			<div class="wrap_for_big_button">
-				<div class="big_button">Отправить заявку</div>
-			</div>
-
-
-
-
-</div>
-
-	<div class="wrap_div">
-		<div class="sub_wrap_div">
-				<ul class="content_div left">
+	<footer>
+		<div class="sub-wrap-div">
+				<ul class="content-div left">
 					<li><a href="#"><strong>Барбершоп Бородинский</strong></a></li>
-					<li><a href="#">г. Санкт-Петербург, ул. Большая Конюшенная 19/8</a></li>
-					<li><a href="#">+7(812)555-66-66</a></li>
+					<li><address>г. Санкт-Петербург, ул. Большая Конюшенная 19/8</address></li>
+					<li><a href="tel:+78125556666">+7(812)555-66-66</a></li>
 				</ul>
-				<ul class="content_div center">
+				<ul class="content-div center">
 					<div class="letsbefrnds">Давайте дружить!</div>
 					
-						<div class="social">
-							<a class="vk" href="#"></a>
-							<a class="fb" href="#"></a>
-							<a class="in" href="#"></a>
-						</div>
+						<ul class="social">
+							<li>
+								<a class="vk" href="#"></a>
+							</li>
+							<li class="center-li">
+								<a class="fb" href="#"></a>
+							</li>
+							<li>
+								<a class="in" href="#"></a>
+							</li>
+						</ul>
 					
 				</ul>
-				<div class="content_div right">
+				<div class="content-div right">
 					<ul>
-						<li><a href="#">Разработано</a></li>
+						<li><h4>Разработано</h4></li>
 						<li class="HTMLAcademy"><a href="#"><span>HTML Academy</span></a></li>
 					</ul>
 				</div>
 			</div>
 			
-	</div>
+	</footer>
 <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
